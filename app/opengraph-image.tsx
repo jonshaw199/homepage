@@ -51,7 +51,7 @@ export default function OpenGraphImage() {
           style={{
             display: "flex",
             justifyContent: "space-between",
-            alignItems: "end",
+            alignItems: "flex-end",
             gap: 24,
           }}
         >

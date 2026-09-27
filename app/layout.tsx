@@ -19,6 +19,7 @@ const bebasNeue = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://jonshaw199.com"),
   title: "Jon | Home",
   description: "Personal homepage with links to writing, profile, and work.",
   alternates: {

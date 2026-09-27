@@ -31,7 +31,7 @@ export default function Home() {
           <span className="font-semibold text-foreground sm:text-2xl">
            software engineer
           </span>{" "}
-          from California and this is my homepage. Click the links below to learn more and hit me up if you&apos;re interested in building cool shit together.
+          from California and this is my homepage. Click the links below to learn more and let me know if you&apos;re interested in building cool stuff together.
         </p>
 
         <div className="mt-12 border-t border-border pt-6">
