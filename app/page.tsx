@@ -11,6 +11,11 @@ const links = [
     href: "https://linkedin.com/in/jonshaw199",
     description: "Work history and professional profile.",
   },
+  {
+    label: "GitHub",
+    href: "https://github.com/jonshaw199",
+    description: "Code, projects, and repos.",
+  },
 ] as const;
 
 export default function Home() {
