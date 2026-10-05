@@ -20,14 +20,27 @@ const bebasNeue = Bebas_Neue({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jonshaw199.com"),
-  title: "Jon | Home",
-  description: "Personal homepage with links to writing, profile, and work.",
+  title: {
+    default: "Jon Shaw | Software engineer",
+    template: "%s | Jon Shaw",
+  },
+  description:
+    "Software engineer based in California building thoughtful products, systems, and digital experiences.",
   alternates: {
     canonical: "https://jonshaw199.com",
   },
+  keywords: [
+    "Jon Shaw",
+    "software engineer",
+    "California",
+    "portfolio",
+    "systems",
+    "products",
+  ],
   openGraph: {
-    title: "Jon | Home",
-    description: "Personal homepage with links to writing, profile, and work.",
+    title: "Jon Shaw | Software engineer",
+    description:
+      "Software engineer based in California building thoughtful products, systems, and digital experiences.",
     url: "https://jonshaw199.com",
     siteName: "Jon Shaw",
     type: "website",
@@ -42,9 +55,14 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jon | Home",
-    description: "Personal homepage with links to writing, profile, and work.",
+    title: "Jon Shaw | Software engineer",
+    description:
+      "Software engineer based in California building thoughtful products, systems, and digital experiences.",
     images: ["/opengraph-image"],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

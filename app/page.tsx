@@ -7,6 +7,11 @@ const links = [
     description: "Posts, notes, and other writing.",
   },
   {
+    label: "Portfolio",
+    href: "https://portfolio-khaki-gamma-55.vercel.app/",
+    description: "Selected software, systems, and product work.",
+  },
+  {
     label: "LinkedIn",
     href: "https://linkedin.com/in/jonshaw199",
     description: "Work history and professional profile.",
