@@ -24,23 +24,25 @@ export default function OpenGraphImage() {
           fontFamily: "Space Grotesk, Arial, sans-serif",
         }}
       >
-        <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
           <div
             style={{
-              fontSize: 32,
-              letterSpacing: "0.24em",
+              fontSize: 42,
+              letterSpacing: "0.14em",
               textTransform: "uppercase",
-              color: "#a1a1aa",
+              color: "#d4d4d8",
+              fontWeight: 600,
             }}
           >
             Jon Shaw
           </div>
           <div
             style={{
-              fontSize: 92,
-              lineHeight: 0.92,
+              fontSize: 70,
+              lineHeight: 1,
               fontWeight: 700,
-              maxWidth: 840,
+              maxWidth: 760,
+              letterSpacing: "-0.06em",
             }}
           >
             Software engineer
