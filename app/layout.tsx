@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Bebas_Neue, Geist_Mono, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
@@ -72,7 +73,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${spaceGrotesk.variable} ${geistMono.variable} ${bebasNeue.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
